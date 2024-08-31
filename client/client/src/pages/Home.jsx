@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from 'react'
-import appwriteService from "../appwrite/config"
+// import appwriteService from "../appwrite/config"
 import { AboutUs, Chatbot, Container,HeroSection,PostCard, ServiceSection, TestimonialsSection, WhyChooseUs } from '../component'
 
 function Home() {

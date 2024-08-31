@@ -9,13 +9,13 @@ import Home from './pages/Home.jsx'
 import { Login,AuthLayout} from './component/index.js'
 import ForInvestors from './pages/ForInvestors.jsx'
 import NGOSupport from './pages/NGOSupport.jsx'
-import AddPost from "./pages/AddPost";
+// import AddPost from "./pages/AddPost";
 import SignUp from './pages/Signup';
-import EditPost from "./pages/EditPost";
+// import EditPost from "./pages/EditPost";
 import UserGuide from './pages/UserGuide.jsx'
-import Post from "./pages/Post";
+// import Post from "./pages/Post";
 import ForFarmers from './pages/ForFarmers.jsx'
-import AllPosts from "./pages/AllPosts";
+// import AllPosts from "./pages/AllPosts";
 import AllServices from './pages/AllServices.jsx'
 const router= createBrowserRouter([
   {
@@ -50,15 +50,15 @@ const router= createBrowserRouter([
                 </AuthLayout>
             ),
         },
-        {
-            path: "/all-posts",
-            element: (
-                <AuthLayout authentication>
-                    {" "}
-                    <AllPosts />
-                </AuthLayout>
-            ),
-        },
+        // {
+        //     path: "/all-posts",
+        //     element: (
+        //         <AuthLayout authentication>
+        //             {" "}
+        //             <AllPosts />
+        //         </AuthLayout>
+        //     ),
+        // },
         {
             path: "/for-farmers",
             element: (
@@ -95,28 +95,28 @@ const router= createBrowserRouter([
                 </AuthLayout>
             ),
         },
-        {
-            path: "/add-post",
-            element: (
-                <AuthLayout authentication>
-                    {" "}
-                    <AddPost />
-                </AuthLayout>
-            ),
-        },
-        {
-            path: "/edit-post/:slug",
-            element: (
-                <AuthLayout authentication>
-                    {" "}
-                    <EditPost />
-                </AuthLayout>
-            ),
-        },
-        {
-            path: "/post/:slug",
-            element: <Post />,
-        },
+        // {
+        //     path: "/add-post",
+        //     element: (
+        //         <AuthLayout authentication>
+        //             {" "}
+        //             <AddPost />
+        //         </AuthLayout>
+        //     ),
+        // },
+        // {
+        //     path: "/edit-post/:slug",
+        //     element: (
+        //         <AuthLayout authentication>
+        //             {" "}
+        //             <EditPost />
+        //         </AuthLayout>
+        //     ),
+        // // },
+        // {
+        //     path: "/post/:slug",
+        //     element: <Post />,
+        // },
     ],
 },
 ])

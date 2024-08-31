@@ -17,7 +17,8 @@ import HeroSection from "./Hero";
 import AboutUs from "./AboutUs";
 import WhyChooseUs from "./WhyChooseUs";
 import TestimonialsSection from "./CostumerReview/WhatCostumerSays";
+import Chatbot from "./Chatbot/Chatbot";
 
 // import VideoPlayer from "./VideoPlayer/VideoPlayer";
-export  {Header,Footer,Container,Logo,LogoutBtn,RTE,SignUp,Login,PostCard, 
+export  {Header,Footer,Container,Logo,LogoutBtn,RTE,SignUp,Login, Chatbot,PostCard,
 Select,Button,PostForm,Input,AuthLayout,HeroSection,ServiceSection,AboutUs,WhyChooseUs,TestimonialsSection}

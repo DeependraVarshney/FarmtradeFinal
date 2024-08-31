@@ -1,5 +1,5 @@
 import React from 'react'
-import { FarmersSection } from '../component'
+// import { FarmersSection } from '../component'
 
 function ForFarmers() {
   return (
@@ -38,7 +38,7 @@ function ForFarmers() {
       <p className="text-gray-200">Maximize your profits and secure your future</p>
     </div>
   </div>
-  <FarmersSection />
+  {/* <FarmersSection /> */}
 </div>
  </>
   )
